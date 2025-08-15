@@ -17,15 +17,19 @@ A simple Java application to detect text similarity between files using a basic 
 # 🛠️ How It Works
 
 - File Processing
+  
   FileProcessor reads each file, splits the text into words, and stores them in lists.
 
 - Similarity Calculation
+  
   SimilarityChecker compares word lists from both files and calculates the percentage of words that match.
 
 - GUI Interface
+  
   PlagiarismCheckerGUI allows users to select two files and view the similarity result in a pop-up dialog.
 
 - CLI Mode
+  
   Run the program from the terminal with two file paths as arguments.
 
 # 📌 Requirements
